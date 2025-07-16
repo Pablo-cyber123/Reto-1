@@ -23,7 +23,7 @@ h2, h3 {
 
 h2 {
   font-size: 4rem;
-  color: #eacee3;
+  color: black;
   margin-bottom: 35px;
 }
 
@@ -35,7 +35,9 @@ h3 {
 p {
   font-family: 'Lato', sans-serif;
   font-size: 1.4rem;  
-  color: #fff;
+  color: black;
+  text-shadow:  #321c3b;
+  text-decoration-line: line-through;
 }
 
 .container {
@@ -82,6 +84,36 @@ dialog button:hover {
 }
 
     </style>
+    <div class="container">
+        <h2>TIPOS DE ELEMENTOS</h2>
+        <p>Seleccione el elemento a consultar su funcion</p>
+    <button onclick="window.modal.showModal();">
+        <h1>Bisturí</h1>
+        <a><img src="https://i.ibb.co/4wK2ZRKn/D-767402-MLA48432234165-122021-O-1.jpg" alt="D-767402-MLA48432234165-122021-O-1" border="0"></a>
+    </button>
+
+    <dialog id="modal">
+        <table>
+            <th colspan="1"; align="center"><h2>Busturi</h2></th>
+            <th> <a><img src="https://i.ibb.co/ymptpn9w/614s-Fc-KMx-KL-1.jpg" alt="614s-Fc-KMx-KL-1" border="0"></a></th>
+            <td>
+                <br><p>Un bisturí es un instrumento quirúrgico que se utiliza para realizar incisiones en tejidos blandos. Consiste en una hoja afilada, generalmente de metal, montada en un mango. Los bisturíes se utilizan en una variedad de procedimientos médicos, desde cirugías hasta disecciones anatómicas y autopsias. 
+                    <br><br>Más detalles sobre el bisturí:
+                    <br><br>Función principal:
+                    <br>El bisturí se utiliza para cortar tejidos, especialmente en procedimientos quirúrgicos donde se necesita precisión. 
+                    <br><br>Partes:
+                    <br>Consta de una hoja, que puede ser fija o intercambiable, y un mango que facilita el agarre y el control durante el corte. 
+                    <br><br>Tipos:
+                    <br>Existen bisturíes tradicionales con hojas de metal y bisturíes eléctricos que utilizan corriente eléctrica para cortar y coagular tejidos, minimizando el sangrado. 
+                    <br><br>Usos:
+                    <br>Además de la cirugía, los bisturíes se utilizan en laboratorios para disecciones y en la investigación anatómica. 
+                    <br><br>Precaución:
+                    <br>Debido a su filo, el manejo del bisturí requiere precaución y habilidad para evitar lesiones</p>
+                    <button onclick="window.modal.close();">Cerrar</button>
+            </td>
+            
+        </table>
+    </dialog>
     <button onclick="window.modal.showModal();">
         <h1>Bisturí</h1>
         <a><img src="https://i.ibb.co/4wK2ZRKn/D-767402-MLA48432234165-122021-O-1.jpg" alt="D-767402-MLA48432234165-122021-O-1" border="0"></a>
